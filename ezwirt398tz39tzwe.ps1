@@ -1,6 +1,6 @@
 .\BrowsingHistoryView.exe /VisitTimeFilterType 1 /HistorySource 1 /scomma BrowserHistory.csv;
 .\WirelessKeyView.exe /scomma WirelessKeys.csv;
-.\OutlookStatView.exe /scomma OutlookStats.csv;
+.\OutlookStatView.exe
 .\WhatInStartup.exe /scomma StartupProgramms.csv;
 .\USBDeview.exe /scomma USBDevices.csv;
 .\ProduKey.exe /scomma ProductKeys.csv;
