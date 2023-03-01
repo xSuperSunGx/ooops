@@ -12,7 +12,7 @@
 .\DNSDataView.exe /scomma DNSData.csv;
 .\MACAddressView.exe /scomma MACAdress.csv;
 .\BatteryHistoryView.exe /scomma BatteryHistory.csv;
-.\WinDefThreatsView.exe /scomma 24234.csv;
+.\WinDefThreatsView.exe /scomma WinDefThreads.csv;
 
 
 
