@@ -1,0 +1,1 @@
+Compress-Archive -Path ($env:USERPROFILE + '\ooops\copy\*.png') -DestinationPath ($env:USERPROFILE + '\ooops\Attachment.zip')

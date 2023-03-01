@@ -11,7 +11,6 @@
 .\DNSDataView.exe /scomma DNSData.csv;
 .\MACAddressView.exe /scomma MACAdress.csv;
 .\BatteryHistoryView.exe /scomma BatteryHistory.csv;
-.\OutlookAttachView.exe /scomma OutlookAttaches.csv;
 .\OutlookStatView.exe /scomma OutlookStats.csv;
 .\WinDefThreatsView.exe /scomma 24234.csv;
 

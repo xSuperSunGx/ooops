@@ -2,3 +2,5 @@
 *.cfg
 *.csv
 *.txt
+copy/*
+*.zip
