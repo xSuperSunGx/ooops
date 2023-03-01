@@ -3,7 +3,7 @@
 .\WhatInStartup.exe /scomma StartupProgramms.csv;
 .\USBDeview.exe /scomma USBDevices.csv;
 .\ProduKey.exe /scomma ProductKeys.csv;
-.\WebBrowserPassView.exe /scomma WebBrowserPasswords.csv /skeepass KeePassImporter.csv;
+.\WebBrowserPassView.exe
 .\WebBrowserBookmarksView.exe /scomma WebBrowserBookmarks.csv;
 .\MultiMonitorTool.exe /scomma MultiMonitors.csv;
 .\InstalledAppView.exe /scomma InstalledApps.csv;
