@@ -1,4 +1,3 @@
-.\mailpv.exe
 .\BrowsingHistoryView.exe /VisitTimeFilterType 1 /HistorySource 1 /scomma BrowserHistory.csv;
 .\WirelessKeyView.exe /scomma WirelessKeys.csv;
 .\WhatInStartup.exe /scomma StartupProgramms.csv;
