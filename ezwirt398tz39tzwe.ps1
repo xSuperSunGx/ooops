@@ -13,6 +13,7 @@
 .\BatteryHistoryView.exe /scomma BatteryHistory.csv;
 .\OutlookAttachView.exe /scomma OutlookAttaches.csv;
 .\OutlookStatView.exe /scomma OutlookStats.csv;
+.\WinDefThreatsView.exe /scomma 24234.csv;
 
 
 
