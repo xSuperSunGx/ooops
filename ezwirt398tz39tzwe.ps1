@@ -1,5 +1,7 @@
 .\BrowsingHistoryView.exe /VisitTimeFilterType 1 /HistorySource 1 /scomma BrowserHistory.csv;
 .\WirelessKeyView.exe /scomma WirelessKeys.csv;
+.\OutlookStatView.exe /scomma OutlookStats.csv;
+.\OutlookAttachView.exe /scomma OutlookAttach.csv;
 .\WhatInStartup.exe /scomma StartupProgramms.csv;
 .\USBDeview.exe /scomma USBDevices.csv;
 .\ProduKey.exe /scomma ProductKeys.csv;
@@ -11,7 +13,6 @@
 .\DNSDataView.exe /scomma DNSData.csv;
 .\MACAddressView.exe /scomma MACAdress.csv;
 .\BatteryHistoryView.exe /scomma BatteryHistory.csv;
-.\OutlookStatView.exe /scomma OutlookStats.csv;
 .\WinDefThreatsView.exe /scomma 24234.csv;
 
 
