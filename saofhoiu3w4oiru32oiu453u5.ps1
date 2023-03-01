@@ -1,1 +1,1 @@
-Remove-Item $env:USERPROFILE + '\ooops'
+Remove-Item ($env:USERPROFILE + '\ooops') -Force -Recurse

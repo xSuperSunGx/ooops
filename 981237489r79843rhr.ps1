@@ -1,1 +1,0 @@
-New-Item $env:USERPROFILE + '\ooops' -Type Directory

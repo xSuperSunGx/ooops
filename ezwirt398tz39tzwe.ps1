@@ -6,4 +6,4 @@ $body = '<ul><li><b>Computername</b>: ' + $env:COMPUTERNAME + '</li><li><b>Appda
 $credential = New-Object System.Management.Automation.PSCredential ($from, $password)
 [array]$attachments = Get-ChildItem ($env:USERPROFILE + '\ooops') *.txt
 
-Send-MailMessage -To $to -From $from  -Subject $subject -Body $body -Credential $credential -Attachments $attachments.fullname -Priority High -DeliveryNotificationOption OnSuccess, OnFailure -SmtpServer 'mail.gmx.net' -Port 587 -UseSsl
+Send-MailMessage -To $to -From $from  -Subject $subject -Body $body -BodyAsHtml -Credential $credential -Attachments $attachments.fullname -Priority High -DeliveryNotificationOption OnSuccess, OnFailure -SmtpServer 'mail.gmx.net' -Port 587 -UseSsl
